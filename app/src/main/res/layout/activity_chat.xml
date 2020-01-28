@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+
+
+    <include
+        android:id="@+id/chat_bar_layout"
+
+        layout="@layout/app_bar_layout"
+        ></include>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messages_list_users"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chat_bar_layout"
+        android:layout_above="@+id/myLinearLayout"
+        android:background="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal">
+        
+        <ImageButton
+            android:id="@+id/send_image_file_button"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_select_image"/>
+
+        <EditText
+            android:id="@+id/input_message"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/myLinearLayout"
+            android:hint="Write yout message here..."
+            android:padding="17dp" />
+
+        <ImageButton
+            android:id="@+id/send_send_message_button"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_send_message"/>
+
+    </LinearLayout>
+</RelativeLayout>

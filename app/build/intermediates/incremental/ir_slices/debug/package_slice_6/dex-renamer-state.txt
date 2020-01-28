@@ -1,0 +1,4 @@
+#Sun Jul 21 12:35:38 EAT 2019
+base.0=E\:\\AndroidSDK\\LostItemTracer\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

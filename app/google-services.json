@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "570155853488",
+    "firebase_url": "https://lostitemtracer.firebaseio.com",
+    "project_id": "lostitemtracer",
+    "storage_bucket": "lostitemtracer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570155853488:android:0267a23ce8cb981f",
+        "android_client_info": {
+          "package_name": "com.lostitemrecovery.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570155853488-tk72s2blm72j0hi9nfqo5sc7qg5pct8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lostitemrecovery.app",
+            "certificate_hash": "255302036ae8923e8c7854075ee53946d99d4f3c"
+          }
+        },
+        {
+          "client_id": "570155853488-1lg91nk1ac9d539g7ee739n82vm14ipg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihxBydMZ8FZmz0zHI8ePDgfpzSKjj40g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570155853488-1lg91nk1ac9d539g7ee739n82vm14ipg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

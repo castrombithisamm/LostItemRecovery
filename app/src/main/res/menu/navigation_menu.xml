@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/profile_icon"/>
+    <item
+        android:id="@+id/nav_post_lost_item"
+        android:title="@string/post_lost_item"
+        android:icon="@drawable/add_post"/>
+    <item
+        android:id="@+id/nav_post_found_item"
+        android:title="@string/post_found_item"
+        android:icon="@drawable/add_post"/>
+    <item
+        android:id="@+id/nav_people_who_lost_or_found_an_item"
+        android:icon="@drawable/find_people"
+        android:title="@string/people_who_lost_or_found_an_item" />
+
+
+
+
+    <item
+        android:id="@+id/nav_messages"
+        android:title="@string/messages"
+        android:icon="@drawable/messages"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"/>
+
+    <item
+        android:id="@+id/nav_privacy_policy"
+        android:title="@string/fui_privacy_policy"
+        android:icon="@drawable/privacy_policy"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/logout"/>
+
+
+</menu>

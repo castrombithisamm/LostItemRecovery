@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lost Item Recovery</string>
+    <string name="home">Home</string>
+    <string name="friends">Privacy Policy</string>
+    <string name="people_who_lost_or_found_an_item">People who Lost or Found</string>
+    <string name="messages">Messages</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="post_lost_item">Post Lost Item</string>
+    <string name="post_found_item">Post Found Item</string>
+    <string name="profile">Profile</string>
+    <string name="username">firstname</string>
+    <string name="lastname">lastname</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+</resources>

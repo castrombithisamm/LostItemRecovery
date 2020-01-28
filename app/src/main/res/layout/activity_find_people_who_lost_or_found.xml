@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".FindPeopleWhoLostOrFoundActivity">
+
+    <include
+        android:id="@+id/find_people_appbar_layout"
+        layout="@layout/app_bar_layout">
+    </include>
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="392dp"
+        android:layout_height="219dp"
+        android:layout_below="@+id/find_people_appbar_layout"
+        android:layout_marginTop="12dp">
+
+
+        <TextView
+            android:id="@+id/simpleTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="25dp"
+            android:text="Here, you can view a list of all the people who have reported a lost or found something within Kibabii University. Also, you can send them a private message on this tab! Private messages help you find the rightful owner of the lost or found item, do not expose too much details, let the person claiming to be the owner tell you exactly what they have lost. Let them give you full details. After confirming that the details match with the found item, you can now give the item to the owner.."
+            android:textAlignment="center"
+
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/search_people_button"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_below="@+id/simpleTextID"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="33dp"
+            android:background="#EB8D00"
+            android:text="Send a Private Message Here..."
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="23sp" />
+
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/find_people_appbar_layout"
+        android:layout_below="@+id/myLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-658dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
